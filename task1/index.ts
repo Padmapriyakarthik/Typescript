@@ -1,7 +1,7 @@
 
 // Leap Year or Not
 let leap=(year:number):boolean=> {
-    return (year%2==0)? true : false;
+    return (year%4==0)? true : false;
 }
 
 console.log(leap(1998));

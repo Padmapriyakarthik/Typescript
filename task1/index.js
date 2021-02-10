@@ -1,6 +1,6 @@
 // Leap Year or Not
 var leap = function (year) {
-    return (year % 2 == 0) ? true : false;
+    return (year % 4 == 0) ? true : false;
 };
 console.log(leap(1998));
 console.log(leap(2021));
